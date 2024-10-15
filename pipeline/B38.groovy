@@ -15,8 +15,8 @@ pipeline {
                 sudo apt update
                 sudo apt install maven -y
                 sudo apt install unzip -y
-                sudo wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.99/bin/apache-tomcat-8.5.99.zip
-                sudo unzip apache-tomcat-8.5.99.zip
+                sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.96/bin/apache-tomcat-9.0.96.zip
+                sudo unzip apache-tomcat-9.0.96.zip
                 sudo mvn clean package
                 
                 '''
