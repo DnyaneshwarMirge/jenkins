@@ -6,7 +6,7 @@ pipeline {
         stage (pull){
             steps{
                 echo "we are pulling from github"
-                git "https://github.com/swapnibrad/studentapp-ui.git"
+                git "https://github.com/AnupDudhe/studentapp-ui.git"
             }   
         }
         stage (build){
