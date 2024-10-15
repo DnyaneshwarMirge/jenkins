@@ -26,8 +26,8 @@ pipeline {
         stage (configure){
             steps{
                 sh '''
-                sudo mv target/*.war  apache-tomcat-8.5.99/webapps/student.war
-                sudo bash apache-tomcat-8.5.99/bin/catalina.sh start
+                sudo mv target/*.war  apache-tomcat-9.0.96/webapps/student.war
+                sudo bash apache-tomcat-9.0.96/bin/catalina.sh start
                 '''
                 echo "we are configuring"
             }   
